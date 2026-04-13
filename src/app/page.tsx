@@ -160,7 +160,7 @@ export default function LandingPage() {
       description="Firma působící na trhu více než 35 let. Naším cílem je spokojený zákazník, který se k nám rád vrací pro další služby a servis."
       subdescription="Ke každé zakázce přistupujeme s maximální precizností a zodpovědností. Ať už jde o malý byt nebo firemní budovu, kvalita je u nás na prvním místě."
       icon={Award}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CIrA5gHdH1i5L4ClMNV1XPQQ6m/uploaded-1776084775970-f0twr422.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CIrA5gHdH1i5L4ClMNV1XPQQ6m/uploaded-1776086002818-ijof8vhz.png"
       mediaAnimation="blur-reveal"
     />
   </div>
