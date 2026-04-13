@@ -71,7 +71,7 @@ export default function LandingPage() {
         {
           text: "Nezávazná poptávka",          href: "#contact"},
       ]}
-      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CIrA5gHdH1i5L4ClMNV1XPQQ6m/uploaded-1776084943578-657ki643.png"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CIrA5gHdH1i5L4ClMNV1XPQQ6m/uploaded-1776085976084-u9o74jdz.png"
       mediaAnimation="slide-up"
       avatars={[
         {
