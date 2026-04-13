@@ -177,7 +177,7 @@ export default function LandingPage() {
         {
           id: "3",          title: "Realizace",          content: "Po odsouhlasení ceny provedeme montáž v dohodnutém termínu s důrazem na čistotu práce."},
       ]}
-      title="Jak probíhá spolupráce"
+      title="Jak probíhá spolupráce?"
       description="Jednoduchý proces, který vede k vaší spokojenosti."
       faqsAnimation="slide-up"
     />
