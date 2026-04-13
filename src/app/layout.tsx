@@ -6,6 +6,7 @@ import "@/lib/gsap-setup";
 import { ServiceWrapper } from "@/components/ServiceWrapper";
 import { getVisualEditScript } from "@/utils/visual-edit-script";
 import { Open_Sans } from "next/font/google";
+import { Montserrat } from "next/font/google";
 
 
 
@@ -18,8 +19,13 @@ export const metadata: Metadata = {
   },
 };
 
-const openSans = Open_Sans({
-  variable: "--font-open-sans",
+
+const montserrat = Montserrat({
+  variable: "--font-montserrat",
+  subsets: ["latin"],
+});
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -31,7 +37,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <ServiceWrapper>
-        <body className={`${openSans.variable} antialiased`}>
+        <body className={`${montserrat.variable} ${inter.variable} antialiased`}>
           
           {children}
           <script
