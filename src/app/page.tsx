@@ -10,7 +10,7 @@ import HeroSplitTestimonial from '@/components/sections/hero/HeroSplitTestimonia
 import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
-import { Award, CheckCircle, Clock, ShieldCheck, Tool } from "lucide-react";
+import { Award, CheckCircle, Clock, ShieldCheck, Wrench } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -31,21 +31,13 @@ export default function LandingPage() {
       <NavbarStyleCentered
       navItems={[
         {
-          name: "Domů",
-          id: "hero",
-        },
+          name: "Domů",          id: "hero"},
         {
-          name: "Služby",
-          id: "services",
-        },
+          name: "Služby",          id: "services"},
         {
-          name: "O nás",
-          id: "about",
-        },
+          name: "O nás",          id: "about"},
         {
-          name: "Kontakt",
-          id: "contact",
-        },
+          name: "Kontakt",          id: "contact"},
       ]}
       brandName="Petr Kaňka – Žaluzie"
     />
@@ -55,102 +47,59 @@ export default function LandingPage() {
       <HeroSplitTestimonial
       useInvertedBackground={false}
       background={{
-        variant: "gradient-bars",
-      }}
+        variant: "gradient-bars"}}
       title="35 let preciznosti ve stínění"
       description="Petr Kaňka – Žaluzie. Dodáváme a montujeme kvalitní stínicí techniku na míru pro váš domov i firmu s důrazem na dlouhou životnost."
       testimonials={[
         {
-          name: "Jan Novák",
-          handle: "Majitel RD",
-          testimonial: "Skvělá práce a profesionální přístup. Žaluzie fungují bezchybně roky.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/carpenter-holds-glue-attaches-window_1150-23996.jpg",
-        },
+          name: "Jan Novák",          handle: "Majitel RD",          testimonial: "Skvělá práce a profesionální přístup. Žaluzie fungují bezchybně roky.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/carpenter-holds-glue-attaches-window_1150-23996.jpg"},
         {
-          name: "Eva Svobodová",
-          handle: "Bytová jednotka",
-          testimonial: "Velmi rychlá realizace a odborné poradenství. Děkuji!",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/male-worker-factory_1303-14086.jpg",
-        },
+          name: "Eva Svobodová",          handle: "Bytová jednotka",          testimonial: "Velmi rychlá realizace a odborné poradenství. Děkuji!",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/male-worker-factory_1303-14086.jpg"},
         {
-          name: "Petr Černý",
-          handle: "Firma",
-          testimonial: "Spolehlivý partner pro naše kanceláře. Doporučuji.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/glass-broken-from-house-by-accident-man-checking-repair_138670-205.jpg",
-        },
+          name: "Petr Černý",          handle: "Firma",          testimonial: "Spolehlivý partner pro naše kanceláře. Doporučuji.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/glass-broken-from-house-by-accident-man-checking-repair_138670-205.jpg"},
         {
-          name: "Lucie Bílá",
-          handle: "Majitelka bytu",
-          testimonial: "Designově čisté řešení, které skvěle stíní. Naprostá spokojenost.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/side-view-engineer-with-plans_23-2148480366.jpg",
-        },
+          name: "Lucie Bílá",          handle: "Majitelka bytu",          testimonial: "Designově čisté řešení, které skvěle stíní. Naprostá spokojenost.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/side-view-engineer-with-plans_23-2148480366.jpg"},
         {
-          name: "Tomáš Marek",
-          handle: "Projektový manažer",
-          testimonial: "Velmi kvalitní materiály a rychlá montáž. Vše proběhlo dle dohody.",
-          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/building-construction-worker-site_23-2149124298.jpg?_wi=1",
-        },
+          name: "Tomáš Marek",          handle: "Projektový manažer",          testimonial: "Velmi kvalitní materiály a rychlá montáž. Vše proběhlo dle dohody.",          rating: 5,
+          imageSrc: "http://img.b2bpic.net/free-photo/building-construction-worker-site_23-2149124298.jpg"},
       ]}
       buttons={[
         {
-          text: "Nezávazná poptávka",
-          href: "#contact",
-        },
+          text: "Nezávazná poptávka",          href: "#contact"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/building-construction-worker-site_23-2149124298.jpg?_wi=2"
+      imageSrc="http://img.b2bpic.net/free-photo/building-construction-worker-site_23-2149124298.jpg"
       mediaAnimation="slide-up"
       avatars={[
         {
-          src: "http://img.b2bpic.net/free-photo/building-construction-worker-site_23-2149124298.jpg",
-          alt: "Jan Novák",
-        },
+          src: "http://img.b2bpic.net/free-photo/building-construction-worker-site_23-2149124298.jpg",          alt: "Jan Novák"},
         {
-          src: "http://img.b2bpic.net/free-photo/wooden-blinds_1203-1112.jpg",
-          alt: "Eva Svobodová",
-        },
+          src: "http://img.b2bpic.net/free-photo/wooden-blinds_1203-1112.jpg",          alt: "Eva Svobodová"},
         {
-          src: "http://img.b2bpic.net/free-photo/front-view-building-with-bricks-stone_23-2148252830.jpg",
-          alt: "Petr Černý",
-        },
+          src: "http://img.b2bpic.net/free-photo/front-view-building-with-bricks-stone_23-2148252830.jpg",          alt: "Petr Černý"},
         {
-          src: "http://img.b2bpic.net/free-photo/bridesmaids-with-bride-dressed-silky-nightwear-are-smelling-wedding-bouquet-scent_8353-11167.jpg",
-          alt: "Lucie Bílá",
-        },
+          src: "http://img.b2bpic.net/free-photo/bridesmaids-with-bride-dressed-silky-nightwear-are-smelling-wedding-bouquet-scent_8353-11167.jpg",          alt: "Lucie Bílá"},
         {
-          src: "http://img.b2bpic.net/free-photo/beautiful-young-couple-posing-streets-city-love-tenderness_1296-820.jpg",
-          alt: "Tomáš Marek",
-        },
+          src: "http://img.b2bpic.net/free-photo/beautiful-young-couple-posing-streets-city-love-tenderness_1296-820.jpg",          alt: "Tomáš Marek"},
       ]}
       marqueeItems={[
         {
-          type: "text-icon",
-          text: "35 Let tradice",
-          icon: Award,
+          type: "text-icon",          text: "35 Let tradice",          icon: Award,
         },
         {
-          type: "text-icon",
-          text: "Montáž na míru",
-          icon: Tool,
+          type: "text-icon",          text: "Montáž na míru",          icon: Wrench,
         },
         {
-          type: "text-icon",
-          text: "Odborné poradenství",
-          icon: ShieldCheck,
+          type: "text-icon",          text: "Odborné poradenství",          icon: ShieldCheck,
         },
         {
-          type: "text-icon",
-          text: "Kvalitní materiály",
-          icon: CheckCircle,
+          type: "text-icon",          text: "Kvalitní materiály",          icon: CheckCircle,
         },
         {
-          type: "text-icon",
-          text: "Záruka životnosti",
-          icon: Clock,
+          type: "text-icon",          text: "Záruka životnosti",          icon: Clock,
         },
       ]}
     />
@@ -162,28 +111,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       features={[
         {
-          title: "Interiérové žaluzie",
-          description: "Klasické i moderní řešení pro zastínění interiéru.",
-          imageSrc: "http://img.b2bpic.net/free-photo/wooden-blinds_1203-1112.jpg",
-          buttonIcon: "ArrowRight",
+          title: "Interiérové žaluzie",          description: "Klasické i moderní řešení pro zastínění interiéru.",          imageSrc: "http://img.b2bpic.net/free-photo/wooden-blinds_1203-1112.jpg",          buttonIcon: CheckCircle,
         },
         {
-          title: "Exteriérové žaluzie",
-          description: "Efektivní ochrana proti přehřívání domu.",
-          imageSrc: "http://img.b2bpic.net/free-photo/front-view-building-with-bricks-stone_23-2148252830.jpg",
-          buttonIcon: "ArrowRight",
+          title: "Exteriérové žaluzie",          description: "Efektivní ochrana proti přehřívání domu.",          imageSrc: "http://img.b2bpic.net/free-photo/front-view-building-with-bricks-stone_23-2148252830.jpg",          buttonIcon: CheckCircle,
         },
         {
-          title: "Rolety den/noc",
-          description: "Variabilní regulace světla podle vašich potřeb.",
-          imageSrc: "http://img.b2bpic.net/free-photo/bridesmaids-with-bride-dressed-silky-nightwear-are-smelling-wedding-bouquet-scent_8353-11167.jpg",
-          buttonIcon: "ArrowRight",
+          title: "Rolety den/noc",          description: "Variabilní regulace světla podle vašich potřeb.",          imageSrc: "http://img.b2bpic.net/free-photo/bridesmaids-with-bride-dressed-silky-nightwear-are-smelling-wedding-bouquet-scent_8353-11167.jpg",          buttonIcon: CheckCircle,
         },
         {
-          title: "Markýzy na míru",
-          description: "Příjemné stínění vaší terasy pro letní pohodu.",
-          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-young-couple-posing-streets-city-love-tenderness_1296-820.jpg",
-          buttonIcon: "ArrowRight",
+          title: "Markýzy na míru",          description: "Příjemné stínění vaší terasy pro letní pohodu.",          imageSrc: "http://img.b2bpic.net/free-photo/beautiful-young-couple-posing-streets-city-love-tenderness_1296-820.jpg",          buttonIcon: CheckCircle,
         },
       ]}
       title="Naše služby"
@@ -198,34 +135,16 @@ export default function LandingPage() {
       useInvertedBackground={true}
       metrics={[
         {
-          id: "1",
-          value: "35+",
-          title: "Let zkušeností",
-          items: [
-            "Tradice od roku 1989",
-            "Ověřené postupy",
-            "Stovky realizací",
-          ],
+          id: "1",          value: "35+",          title: "Let zkušeností",          items: [
+            "Tradice od roku 1989",            "Ověřené postupy",            "Stovky realizací"],
         },
         {
-          id: "2",
-          value: "100%",
-          title: "Individuální přístup",
-          items: [
-            "Zaměření na míru",
-            "Profesionální návrh",
-            "Osobní konzultace",
-          ],
+          id: "2",          value: "100%",          title: "Individuální přístup",          items: [
+            "Zaměření na míru",            "Profesionální návrh",            "Osobní konzultace"],
         },
         {
-          id: "3",
-          value: "Kvalita",
-          title: "Materiály",
-          items: [
-            "Dlouhá životnost",
-            "Kvalitní komponenty",
-            "Odolné povrchy",
-          ],
+          id: "3",          value: "Kvalita",          title: "Materiály",          items: [
+            "Dlouhá životnost",            "Kvalitní komponenty",            "Odolné povrchy"],
         },
       ]}
       title="Proč si vybrat nás"
@@ -252,20 +171,11 @@ export default function LandingPage() {
       useInvertedBackground={true}
       faqs={[
         {
-          id: "1",
-          title: "Kontaktování",
-          content: "Stačí zavolat nebo napsat nezávaznou poptávku prostřednictvím formuláře.",
-        },
+          id: "1",          title: "Kontaktování",          content: "Stačí zavolat nebo napsat nezávaznou poptávku prostřednictvím formuláře."},
         {
-          id: "2",
-          title: "Konzultace a zaměření",
-          content: "Domluvíme si termín, přijedeme k vám, vše odborně zaměříme a navrhneme optimální řešení.",
-        },
+          id: "2",          title: "Konzultace a zaměření",          content: "Domluvíme si termín, přijedeme k vám, vše odborně zaměříme a navrhneme optimální řešení."},
         {
-          id: "3",
-          title: "Realizace",
-          content: "Po odsouhlasení ceny provedeme montáž v dohodnutém termínu s důrazem na čistotu práce.",
-        },
+          id: "3",          title: "Realizace",          content: "Po odsouhlasení ceny provedeme montáž v dohodnutém termínu s důrazem na čistotu práce."},
       ]}
       title="Jak probíhá spolupráce"
       description="Jednoduchý proces, který vede k vaší spokojenosti."
@@ -277,8 +187,7 @@ export default function LandingPage() {
       <ContactSplit
       useInvertedBackground={false}
       background={{
-        variant: "plain",
-      }}
+        variant: "plain"}}
       tag="Kontakt"
       title="Máte dotaz nebo zájem o poptávku?"
       description="Ozveme se vám zpět v co nejkratším čase. Zavolejte nám na +420 123 456 789 nebo napište na info@kankazaluzie.cz"
@@ -292,13 +201,9 @@ export default function LandingPage() {
       <FooterLogoReveal
       logoText="Petr Kaňka – Žaluzie"
       leftLink={{
-        text: "© 2024 Všechna práva vyhrazena",
-        href: "#",
-      }}
+        text: "© 2024 Všechna práva vyhrazena",        href: "#"}}
       rightLink={{
-        text: "GDPR",
-        href: "#",
-      }}
+        text: "GDPR",        href: "#"}}
     />
   </div>
       </ReactLenis>
