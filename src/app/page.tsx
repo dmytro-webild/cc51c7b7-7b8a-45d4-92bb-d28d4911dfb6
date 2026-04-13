@@ -71,7 +71,7 @@ export default function LandingPage() {
         {
           text: "Nezávazná poptávka",          href: "#contact"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/building-construction-worker-site_23-2149124298.jpg?_wi=2"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CIrA5gHdH1i5L4ClMNV1XPQQ6m/uploaded-1776084943578-657ki643.png"
       mediaAnimation="slide-up"
       avatars={[
         {
@@ -160,7 +160,7 @@ export default function LandingPage() {
       description="Firma působící na trhu více než 35 let. Naším cílem je spokojený zákazník, který se k nám rád vrací pro další služby a servis."
       subdescription="Ke každé zakázce přistupujeme s maximální precizností a zodpovědností. Ať už jde o malý byt nebo firemní budovu, kvalita je u nás na prvním místě."
       icon={Award}
-      imageSrc="http://img.b2bpic.net/free-photo/male-with-skipping-rope-neck_23-2148241592.jpg"
+      imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CIrA5gHdH1i5L4ClMNV1XPQQ6m/uploaded-1776084775970-f0twr422.jpg"
       mediaAnimation="blur-reveal"
     />
   </div>
@@ -190,7 +190,7 @@ export default function LandingPage() {
         variant: "plain"}}
       tag="Kontakt"
       title="Máte dotaz nebo zájem o poptávku?"
-      description="Ozveme se vám zpět v co nejkratším čase. Zavolejte nám na +420 123 456 789 nebo napište na info@kankazaluzie.cz"
+      description="Ozveme se vám zpět v co nejkratším čase. Zavolejte nám na +420 777 244 303 nebo napište na kankapetr@seznam.cz"
       imageSrc="http://img.b2bpic.net/free-photo/medium-shot-couple-with-plans_23-2148889742.jpg"
       mediaAnimation="slide-up"
       buttonText="Odeslat poptávku"
