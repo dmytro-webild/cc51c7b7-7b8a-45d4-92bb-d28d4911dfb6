@@ -136,7 +136,7 @@ export default function LandingPage() {
       metrics={[
         {
           id: "1",          value: "35+",          title: "Let zkušeností",          items: [
-            "Tradice od roku 1989",            "Ověřené postupy",            "Stovky realizací"],
+            "Tradice od roku 1990",            "Ověřené postupy",            "Stovky realizací"],
         },
         {
           id: "2",          value: "100%",          title: "Individuální přístup",          items: [
