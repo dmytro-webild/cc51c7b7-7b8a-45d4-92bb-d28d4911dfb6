@@ -65,13 +65,13 @@ export default function LandingPage() {
           imageSrc: "http://img.b2bpic.net/free-photo/side-view-engineer-with-plans_23-2148480366.jpg"},
         {
           name: "Tomáš Marek",          handle: "Projektový manažer",          testimonial: "Velmi kvalitní materiály a rychlá montáž. Vše proběhlo dle dohody.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/building-construction-worker-site_23-2149124298.jpg"},
+          imageSrc: "http://img.b2bpic.net/free-photo/building-construction-worker-site_23-2149124298.jpg?_wi=1"},
       ]}
       buttons={[
         {
           text: "Nezávazná poptávka",          href: "#contact"},
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/building-construction-worker-site_23-2149124298.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/building-construction-worker-site_23-2149124298.jpg?_wi=2"
       mediaAnimation="slide-up"
       avatars={[
         {
