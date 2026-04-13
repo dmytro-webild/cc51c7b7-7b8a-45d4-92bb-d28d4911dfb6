@@ -93,7 +93,7 @@ export default function LandingPage() {
           handle: "Projektový manažer",
           testimonial: "Velmi kvalitní materiály a rychlá montáž. Vše proběhlo dle dohody.",
           rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/building-construction-worker-site_23-2149124298.jpg",
+          imageSrc: "http://img.b2bpic.net/free-photo/building-construction-worker-site_23-2149124298.jpg?_wi=1",
         },
       ]}
       buttons={[
@@ -102,7 +102,7 @@ export default function LandingPage() {
           href: "#contact",
         },
       ]}
-      imageSrc="http://img.b2bpic.net/free-photo/building-construction-worker-site_23-2149124298.jpg"
+      imageSrc="http://img.b2bpic.net/free-photo/building-construction-worker-site_23-2149124298.jpg?_wi=2"
       mediaAnimation="slide-up"
       avatars={[
         {
