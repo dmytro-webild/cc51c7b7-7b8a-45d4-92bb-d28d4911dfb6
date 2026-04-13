@@ -49,7 +49,7 @@ export default function LandingPage() {
       background={{
         variant: "gradient-bars"}}
       title="35 let preciznosti ve stínění"
-      description="Petr Kaňka – Žaluzie. Dodáváme a montujeme kvalitní stínicí techniku na míru pro váš domov i firmu s důrazem na dlouhou životnost."
+      description="Petr Kaňka – Žaluzie. Specializujeme se na montáž a servis stínící techniky v Mladé Boleslavi a jejím okolí. Dodáváme kvalitní řešení na míru pro váš domov i firmu s důrazem na dlouhou životnost."
       testimonials={[
         {
           name: "Jan Novák",          handle: "Majitel RD",          testimonial: "Skvělá práce a profesionální přístup. Žaluzie fungují bezchybně roky.",          rating: 5,
