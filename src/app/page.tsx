@@ -52,19 +52,19 @@ export default function LandingPage() {
       description="Petr Kaňka – Žaluzie. Specializujeme se na montáž a servis stínící techniky v Mladé Boleslavi a jejím okolí. Dodáváme kvalitní řešení na míru pro váš domov i firmu s důrazem na dlouhou životnost."
       testimonials={[
         {
-          name: "Jan Novák",          handle: "Majitel RD",          testimonial: "Skvělá práce a profesionální přístup. Žaluzie fungují bezchybně roky.",          rating: 5,
+          name: "Jan Novák",          handle: "Majitel RD",          testimonial: "Skvělá práce a profesionální přístup. Žaluzie fungují bezchybně roky.",          rating: 4,
           imageSrc: "http://img.b2bpic.net/free-photo/carpenter-holds-glue-attaches-window_1150-23996.jpg"},
         {
-          name: "Eva Svobodová",          handle: "Bytová jednotka",          testimonial: "Velmi rychlá realizace a odborné poradenství. Děkuji!",          rating: 5,
+          name: "Eva Svobodová",          handle: "Bytová jednotka",          testimonial: "Velmi rychlá realizace a odborné poradenství. Děkuji!",          rating: 4,
           imageSrc: "http://img.b2bpic.net/free-photo/male-worker-factory_1303-14086.jpg"},
         {
-          name: "Petr Černý",          handle: "Firma",          testimonial: "Spolehlivý partner pro naše kanceláře. Doporučuji.",          rating: 5,
+          name: "Petr Černý",          handle: "Firma",          testimonial: "Spolehlivý partner pro naše kanceláře. Doporučuji.",          rating: 4,
           imageSrc: "http://img.b2bpic.net/free-photo/glass-broken-from-house-by-accident-man-checking-repair_138670-205.jpg"},
         {
-          name: "Lucie Bílá",          handle: "Majitelka bytu",          testimonial: "Designově čisté řešení, které skvěle stíní. Naprostá spokojenost.",          rating: 5,
+          name: "Lucie Bílá",          handle: "Majitelka bytu",          testimonial: "Designově čisté řešení, které skvěle stíní. Naprostá spokojenost.",          rating: 4,
           imageSrc: "http://img.b2bpic.net/free-photo/side-view-engineer-with-plans_23-2148480366.jpg"},
         {
-          name: "Tomáš Marek",          handle: "Projektový manažer",          testimonial: "Velmi kvalitní materiály a rychlá montáž. Vše proběhlo dle dohody.",          rating: 5,
+          name: "Tomáš Marek",          handle: "Projektový manažer",          testimonial: "Velmi kvalitní materiály a rychlá montáž. Vše proběhlo dle dohody.",          rating: 4,
           imageSrc: "http://img.b2bpic.net/free-photo/building-construction-worker-site_23-2149124298.jpg?_wi=1"},
       ]}
       buttons={[
