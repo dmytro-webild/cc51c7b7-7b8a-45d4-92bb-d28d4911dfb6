@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import ReactLenis from "lenis/react";
-import ContactSplit from '@/components/sections/contact/ContactSplit';
+import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FaqDouble from '@/components/sections/faq/FaqDouble';
 import FeatureCardTwentySix from '@/components/sections/feature/FeatureCardTwentySix';
 import FooterLogoReveal from '@/components/sections/footer/FooterLogoReveal';
@@ -180,16 +180,13 @@ export default function LandingPage() {
   </div>
 
   <div id="contact" data-section="contact">
-      <ContactSplit
+      <ContactCenter
       useInvertedBackground={false}
       background={{
         variant: "plain"}}
       tag="Kontakt"
       title="Máte dotaz nebo zájem o poptávku?"
       description="Ozveme se vám zpět v co nejkratším čase. Zavolejte nám na +420 777 244 303 nebo napište na kankapetr@seznam.cz"
-      imageSrc="http://img.b2bpic.net/free-photo/medium-shot-couple-with-plans_23-2148889742.jpg"
-      mediaAnimation="slide-up"
-      buttonText="Odeslat poptávku"
     />
   </div>
 
