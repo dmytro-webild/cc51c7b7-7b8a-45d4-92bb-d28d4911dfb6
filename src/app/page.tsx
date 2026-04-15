@@ -48,7 +48,7 @@ export default function LandingPage() {
       useInvertedBackground={false}
       background={{
         variant: "gradient-bars"}}
-      title="35 let preciznosti ve stínění"
+      title="Montáž žaluzií Mladá Boleslav a okolí"
       description="Petr Kaňka – Žaluzie. Specializujeme se na montáž a servis stínící techniky v Mladé Boleslavi a jejím okolí. Dodáváme kvalitní řešení na míru pro váš domov i firmu s důrazem na dlouhou životnost."
       testimonials={[
         {
