@@ -67,10 +67,6 @@ export default function LandingPage() {
           name: "Tomáš Marek",          handle: "Projektový manažer",          testimonial: "Velmi kvalitní materiály a rychlá montáž. Vše proběhlo dle dohody.",          rating: 4,
           imageSrc: "http://img.b2bpic.net/free-photo/building-construction-worker-site_23-2149124298.jpg?_wi=1"},
       ]}
-      buttons={[
-        {
-          text: "Nezávazná poptávka",          href: "#contact"},
-      ]}
       imageSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_3CIrA5gHdH1i5L4ClMNV1XPQQ6m/uploaded-1776085976084-u9o74jdz.png"
       mediaAnimation="slide-up"
       avatars={[
