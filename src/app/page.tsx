@@ -10,8 +10,7 @@ import HeroSplitTestimonial from '@/components/sections/hero/HeroSplitTestimonia
 import MetricCardSeven from '@/components/sections/metrics/MetricCardSeven';
 import NavbarStyleCentered from '@/components/navbar/NavbarStyleCentered/NavbarStyleCentered';
 import TestimonialAboutCard from '@/components/sections/about/TestimonialAboutCard';
-import ButtonElasticEffect from '@/components/button/ButtonElasticEffect/ButtonElasticEffect';
-import { Award, CheckCircle, Clock, ShieldCheck, Wrench, Phone } from "lucide-react";
+import { Award, CheckCircle, Clock, ShieldCheck, Wrench } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -123,12 +122,6 @@ export default function LandingPage() {
       title="Naše služby"
       description="Nabízíme komplexní řešení pro stínění vašeho interiéru i exteriéru."
     />
-    <div className="flex justify-center pt-8">
-      <ButtonElasticEffect 
-        text="Zavolat zdarma" 
-        href="tel:+420777244303"
-      />
-    </div>
   </div>
 
   <div id="benefits" data-section="benefits">
